@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finance AI
 
-## Getting Started
+Este repositório contém o código-fonte do projeto **Finance AI**. Ele foi desenvolvido com Next.js e utiliza o npm como gerenciador de pacotes.
 
-First, run the development server:
+## Pré-requisitos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Antes de começar, certifique-se de ter os seguintes softwares instalados na sua máquina:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Node.js** (versão 18 ou superior) - [Download Node.js](https://nodejs.org/)
+- **React** (instalado como parte do projeto com Node.js)
+- **npm** (versão 1.x ou superior) - [Instruções de instalação do Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalação
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Siga os passos abaixo para configurar e executar o projeto localmente:
 
-## Learn More
+1. **Clone este repositório**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/antoni0jsneto/finance-ai.git
+   cd seu-repositorio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Instale as dependências**:
 
-## Deploy on Vercel
+   ```bash
+   npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Crie o arquivo .env com as variáveis de ambiente necessárias para rodar o projeto**:
+
+4. **Inicie o servidor de desenvolvimento**:
+   ```bash
+   npm run dev
+   ```
+
+O projeto será executado em http://localhost:3000 por padrão.
+
+## Scripts Disponíveis
+
+Aqui estão alguns scripts úteis que você pode executar no projeto:
+
+- npm run dev: Inicia o servidor de desenvolvimento.
+- npm run build: Gera uma build otimizada para produção.
+
+## Contribuição
+
+Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request com suas sugestões.
+
+## Problemas ou Dúvidas?
+
+Se você encontrar algum problema ou tiver dúvidas, fique à vontade para abrir uma issue.
+
+Obrigado por usar o Club E-commerce Frontend! 🚀
